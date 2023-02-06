@@ -1,0 +1,7 @@
+div[class~="datatable-header"].dataTableHeader {
+  position: relative;
+}
+
+.divider {
+  margin: 0 10px !important;
+}

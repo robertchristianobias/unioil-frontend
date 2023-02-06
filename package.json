@@ -1,0 +1,59 @@
+{
+  "name": "unioil",
+  "version": "1.0.0",
+  "description": "eJMS",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@reach/router": "^1.2.1",
+    "@tinymce/tinymce-react": "^3.12.2",
+    "bootstrap": "^4.4.1",
+    "material-table": "^1.69.3",
+    "moment": "^2.29.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.5.2",
+    "react-charts": "^2.0.0-beta.7",
+    "react-data-table-component": "^6.11.8",
+    "react-date-picker": "^8.1.1",
+    "react-datetime-picker": "^3.2.0",
+    "react-dom": "^16.12.0",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-offcanvas": "^0.4.0",
+    "react-redux": "^7.2.3",
+    "react-s-alert": "^1.4.1",
+    "react-scripts": "^4.0.3",
+    "react-select": "^3.0.8",
+    "react-sortable-hoc": "^2.0.0",
+    "react-splitter-layout": "^4.0.0",
+    "react-switch": "^6.0.0",
+    "styled-components": "^5.2.3",
+    "sweetalert": "^2.1.2",
+    "tinymce": "^5.7.1"
+  },
+  "scripts": {
+    "start": "set PORT=1207 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "source-map-explorer": "^2.3.1"
+  }
+}

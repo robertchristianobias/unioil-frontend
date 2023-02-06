@@ -1,0 +1,331 @@
+.datatable-header {
+  position: fixed;
+  z-index: 9;
+}
+
+.rdt_Table {
+  height: 100%;
+  border-top: 1px solid var(--datatable-divider);
+  border-bottom-width: 0;
+}
+
+.rdt_TableCol {
+  border-left: 1px solid var(--datatable-divider);
+  border-top-width: 0;
+  border-bottom-width: 0;
+  font-size: .9rem !important;
+}
+
+.rdt_TableRow:hover {
+  outline: none !important;
+  border-bottom-color: var(--datatable-divider) !important;
+  background-color: var(--datatable-row-hover) !important;
+}
+
+.rdt_TableHeadRow {
+  border-bottom-width: 3px !important;
+}
+
+.rdt_TableHeadRow {
+  border-top: 1px solid var(--datatable-divider);
+}
+
+.rdt_TableCell {
+  font-size: .9rem;
+  border: 1px solid var(--datatable-divider);
+  border-bottom-width: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+}
+
+.rdt_ExpanderRow {
+  border-bottom: 1px solid var(--datatable-divider);
+}
+
+/* Checkbox Column */
+.rdt_TableCol:first-child {
+  flex: 0 !important;
+  min-width: 50px;
+  border-left-width: 0;
+}
+
+.rdt_TableCell:first-child {
+  flex: 0 !important;
+  min-width: 50px;
+  border-left-width: 0;
+}
+.expand-item {
+  border-bottom: 1px solid #efefef;
+}
+
+/* Expand Button Column */
+/*.rdt_TableRow div:nth-child(2),
+.rdt_TableHeadRow div:nth-child(2) {
+  flex: 0 !important;
+  min-width: 150px;
+  padding: 0;
+}*/
+
+/* ID Column */
+.rdt_TableCol:nth-child(2) {
+  flex: 0 !important;
+  padding-left: 1.75rem;
+  min-width: 150px;
+}
+
+.rdt_TableCell:nth-child(2) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 150px;
+}
+
+.rdt_TableCol:nth-child(3) {
+  flex: 0 !important;
+  padding-left: 1.75rem;
+  min-width: 150px;
+}
+
+.rdt_TableCell:nth-child(3) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 150px;
+}
+.rdt_TableCol:nth-child(4) {
+  flex: 0 !important;
+  padding-left: 1.75rem;
+  min-width: 150px;
+}
+
+.rdt_TableCell:nth-child(4) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 150px;
+}
+
+.rdt_TableCol:nth-child(5) {
+  flex: 0 !important;
+  padding-left: 1.75rem;
+  min-width: 150px;
+}
+
+.rdt_TableCell:nth-child(5) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 150px;
+}
+
+.rdt_TableCol:nth-child(6) {
+  flex: 0 !important;
+  padding-left: 1.75rem;
+  min-width: 150px;
+}
+
+.rdt_TableCell:nth-child(6) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 150px;
+}
+
+
+.vehicles-datatable .rdt_TableCol:nth-child(6),
+.vehicles-datatable .rdt_TableCell:nth-child(6) {
+  flex: 0 !important;
+  min-width: 50px;
+  padding-left: 7px;
+}
+
+.vehicles-datatable .rdt_TableCol:nth-child(7),
+.vehicles-datatable .rdt_TableCell:nth-child(7) {
+  flex: 0 !important;
+  min-width: 100px;
+}
+
+.vehicles-datatable .rdt_TableCol:nth-child(8),
+.vehicles-datatable .rdt_TableCell:nth-child(8) {
+  flex: 0 !important;
+  min-width: 45px;
+  padding-left: 7px;
+}
+
+.vehicles-datatable .rdt_TableCol:nth-child(9),
+.vehicles-datatable .rdt_TableCell:nth-child(9) {
+  flex: 0 !important;
+  min-width: 45px;
+  padding-left: 7px;
+}
+
+.vehicles-datatable .rdt_TableCol:nth-child(10),
+.vehicles-datatable .rdt_TableCell:nth-child(10) {
+  flex: 0 !important;
+  min-width: 180px;
+}
+
+.vehicles-datatable .rdt_TableCol:nth-child(11),
+.vehicles-datatable .rdt_TableCell:nth-child(11) {
+  flex: 0 !important;
+  min-width: 550px;
+}
+
+.vehicles-datatable .rdt_TableCol:nth-child(12),
+.vehicles-datatable .rdt_TableCell:nth-child(12),
+.vehicles-datatable .rdt_TableCol:nth-child(13),
+.vehicles-datatable .rdt_TableCell:nth-child(13),
+.vehicles-datatable .rdt_TableCol:nth-child(14),
+.vehicles-datatable .rdt_TableCell:nth-child(14),
+.vehicles-datatable .rdt_TableCol:nth-child(15),
+.vehicles-datatable .rdt_TableCell:nth-child(15),
+.vehicles-datatable .rdt_TableCol:nth-child(16),
+.vehicles-datatable .rdt_TableCell:nth-child(16) {
+  flex: 0 !important;
+  min-width: 200px;
+}
+
+.vehicles-datatable .rdt_TableCol:last-child {
+  flex: 0 !important;
+  min-width: 600px;
+}
+
+.vehicles-datatable .rdt_TableCell:last-child {
+  flex: 0 !important;
+  min-width:600px;
+}
+
+/*orders*/
+.orders-datatable .rdt_TableCol:nth-child(6) {
+  flex: 0 !important;
+  /*padding-left: 1.75rem;*/
+  min-width: 300px;
+}
+
+.orders-datatable .rdt_TableCell:nth-child(6) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 300px;
+}
+.orders-datatable .rdt_TableCol:nth-child(7) {
+  flex: 0 !important;
+  /*padding-left: 1.75rem;*/
+  min-width: 100px;
+}
+
+.orders-datatable .rdt_TableCell:nth-child(7) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 100px;
+}
+.orders-datatable .rdt_TableCol:nth-child(8) {
+  flex: 0 !important;
+  /*padding-left: 1.75rem;*/
+  min-width: 100px;
+}
+
+.orders-datatable .rdt_TableCell:nth-child(8) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 100px;
+}
+
+.orders-datatable .rdt_TableCol:nth-child(9) {
+  flex: 0 !important;
+  /*padding-left: 1.75rem;*/
+  min-width: 300px;
+}
+
+.orders-datatable .rdt_TableCell:nth-child(9) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 300px;
+}
+.orders-datatable .rdt_TableCol:nth-child(10) {
+  flex: 0 !important;
+  /*padding-left: 1.75rem;*/
+  min-width: 150px;
+}
+
+.orders-datatable .rdt_TableCell:nth-child(10) {
+  flex: 0 !important;
+  /*padding: 0;*/
+  min-width: 150px;
+}
+
+.orders-datatable .rdt_TableCol:last-child {
+  flex: 0 !important;
+  min-width: 600px;
+  /*border-left-width: 0;*/
+}
+
+.orders-datatable .rdt_TableCell:last-child {
+  flex: 0 !important;
+  min-width:600px;
+  /*border-left-width: 0;*/
+}
+/*orders end*/
+
+.import-datatable .rdt_TableRow div:nth-child(2),
+.import-datatable .rdt_TableHeadRow div:nth-child(2) {
+  flex: 0 1 !important;
+  min-width: 100px;
+}
+
+.import-datatable .rdt_TableCol:nth-child(3),
+.import-datatable .rdt_TableCell:nth-child(3) {
+  flex: 0 1 !important;
+  min-width: 125px;
+  padding: 10px;
+}
+
+.import-datatable .rdt_TableCol:nth-child(4),
+.import-datatable .rdt_TableCell:nth-child(4) {
+  flex: 0 1 !important;
+  min-width: 140px;
+  padding: 10px;
+}
+
+.import-datatable .rdt_TableCol:nth-child(5),
+.import-datatable .rdt_TableCell:nth-child(5) {
+  flex: 0 1 !important;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.import-datatable .rdt_TableCol:nth-child(6),
+.import-datatable .rdt_TableCell:nth-child(6) {
+  flex: 0 1 !important;
+  min-width: 70px;
+  padding: 10px;
+}
+
+.import-datatable .rdt_TableCol:nth-child(7),
+.import-datatable .rdt_TableCell:nth-child(7) {
+  flex: 0 1 !important;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.import-datatable .rdt_TableCol:nth-child(8),
+.import-datatable .rdt_TableCell:nth-child(8) {
+  flex: 0 1 !important;
+  min-width: 80px;
+  padding: 10px;
+}
+
+.import-datatable .rdt_TableCol:last-child,
+.import-datatable .rdt_TableCell:last-child {
+  padding: 10px;
+}
+
+/* Dispatch Datable */
+.dispatch-datatable .rdt_TableCol:nth-child(4),
+.dispatch-datatable .rdt_TableCell:nth-child(4) {
+  min-width: 100px;
+}
+
+.dispatch-datatable .rdt_TableCol:nth-child(6),
+.dispatch-datatable .rdt_TableCell:nth-child(6),
+.dispatch-datatable .rdt_TableCol:nth-child(7),
+.dispatch-datatable .rdt_TableCell:nth-child(7),
+.dispatch-datatable .rdt_TableCol:nth-child(8),
+.dispatch-datatable .rdt_TableCell:nth-child(8) {
+  min-width: 50px;
+  padding-left: 5px;
+}

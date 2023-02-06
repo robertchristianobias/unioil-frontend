@@ -1,0 +1,28 @@
+.sidepanel {
+  position: absolute !important;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: -4px 4px 2px rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+
+.sidepanel .close {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  min-height: 10%;
+  height: auto;
+  color: #FF0000;
+}
+
+.sidepanel .close span {
+  font-weight: 900;
+}
+
+.modal-header {
+  margin-top: 22px;
+}
+
+.splitter-layout .sidepanel {
+  height: 100%;
+}
